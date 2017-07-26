@@ -1,0 +1,5 @@
+KEY,MOSS,DISPLAY,IS_DISPLAY
+_ACTIVE,No,Active,1
+_SUSPEND,Yes,Suspend,1
+_EXPIRED,No,Expired,1
+_REVOKED,Yes,Revoked,1

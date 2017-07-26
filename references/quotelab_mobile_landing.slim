@@ -1,0 +1,70 @@
+html xmlns="http://www.w3.org/1999/xhtml" 
+  head
+    title Compare Quotes on Your Phone!
+    meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" name="viewport" /
+    script src="/js/?jquery.min,main,extensions,easing" type="text/javascript" 
+    link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css" /
+    link href="/css/?main" rel="stylesheet" type="text/css" /
+  body#auto
+    #mobile style=("background-position-x: 15402px;") 
+      #loader.active.card style=("display: none;") 
+        img src="/img/loading.gif" width="32" /
+        h1 Loading
+      #title-screen.active.card
+        #title-content style=("left: 77.5px; top: 0.5px; margin-top: 1071px;") 
+          h1 Get the Best
+          h1 style="font-weight:600"  Car Insurance
+          h1 Rates Today!
+          #title-logo
+            img src="/img/car.png" width="50%" /
+          #start-button style=("display: block; opacity: 0.0484;")  Tap here to begin
+        #zip.card style=("margin-top: 60px;") 
+          form action="save.html" onsubmit=("return leaveBehind('AlOrciNh2-CZoB-O7YeyQExgRh4brAJyjY2tK_wR_7f6EMQIwNY')") target="_blank" 
+            h1 Let's get started!
+            .form
+              h2 Enter your 5 digit zip code
+              input#f-zip autocomplete="off" data-error=("Please enter your zip code") maxlength="5" name="zip" pattern="[0-9]*" size="5" type="tel" /
+              br/
+              button type="submit"  Check Rates
+      #results style="display:none" 
+        h1 Here are the best rates!
+        #leave-behind
+    /! 4-a
+    javascript:
+      | var product = 'auto';
+    css:
+      .tb_button {
+      | padding: 1px;
+      | cursor: pointer;
+      | border-right: 1px solid #8b8b8b;
+      | border-left: 1px solid #FFF;
+      | border-bottom: 1px solid #fff;
+      | }
+
+      .tb_button.hover {
+      | borer: 2px outset #def;
+      | background-color: #f8f8f8 !important;
+      | }
+
+      .ws_toolbar {
+      | z-index: 100000
+      | }
+
+      .ws_toolbar .ws_tb_btn {
+      | cursor: pointer;
+      | border: 1px solid #555;
+      | padding: 3px
+      | }
+
+      .tb_highlight {
+      | background-color: yellow
+      | }
+
+      .tb_hide {
+      | visibility: hidden
+      | }
+
+      .ws_toolbar img {
+      | padding: 2px;
+      | margin: 0px
+      | }

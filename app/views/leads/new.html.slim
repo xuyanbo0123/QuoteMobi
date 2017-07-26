@@ -1,0 +1,60 @@
+/- cache('leads_new') do
+section#wizard.page-block
+  .container
+    .row
+      .col-lg-12
+        .wizard
+          .header
+            h3 Fast, Free Auto Insurance Quotes
+          = simple_form_for @lead, :wrapper => 'inline_form' do |f|
+            =f.hidden_field :leadid_token, id: 'leadid_token', value: ''
+            #step01.wizard-step.fade.in.active
+              .tab-links-wrap
+                .overlay
+                .row.tab-links
+                  .vehicle.tab-link.active.col-lg-3.col-md-3.col-sm-3.col-xs-3
+                    a data-toggle="tab" href="#vehicle"
+                      i.fa.fa-car
+                      span Vehicles
+                  .driver.tab-link.col-lg-3.col-md-3.col-sm-3.col-xs-3
+                    a data-toggle="tab" href="#driver"
+                      i.fa.fa-users
+                      span Drivers
+                  .policy.tab-link.col-lg-3.col-md-3.col-sm-3.col-xs-3
+                    a data-toggle="tab" href="#policy"
+                      i.fa.fa-file-text
+                      span Policy
+                  .contact.tab-link.col-lg-3.col-md-3.col-sm-3.col-xs-3
+                    a data-toggle="tab" href="#contact"
+                      i.fa.fa-th-list
+                      span Contact
+              .tabs
+                #vehicle.tab.row.fade.in.active
+                  .col-lg-12
+                    #vehicles.active
+                      = f.simple_fields_for :vehicles, :wrapper => 'inline_form' do |vehicle|
+                        = render 'vehicle_fields', :f => vehicle
+                #driver.tab.row.fade
+                  .col-lg-12
+                    #drivers.active
+                      = f.simple_fields_for :drivers, :wrapper => 'inline_form' do |driver|
+                        = render 'driver_fields', :f => driver
+                #policy.tab.row.fade
+                  .col-lg-12
+                    = f.simple_fields_for :policy do |policy|
+                      = render 'policy_fields', :f => policy
+                #contact.tab.row.fade
+                  .col-lg-12
+                    = f.simple_fields_for :contact do |contact|
+                      = render 'contact_fields', :f => contact
+            .wizard-footer.group
+              .buttons.links
+                a.btn-3d.btn-default.prev-tab.hidden href="#"
+                  i.fa.fa-chevron-left Back
+                a.btn-3d.btn-default.next-tab href="#"
+                  = 'Next '
+                  i.fa.fa-chevron-right
+                = f.button :submit, :disable_with => 'Please wait ...', :class => 'btn-lg btn-3d btn-success submit-lead hidden', :value => 'Submit'
+              label#tcpa_disclosure.hidden
+                = f.hidden_field :leadid_tcpa_disclosure, value: '', id: 'leadid_tcpa_disclosure'
+                | By submitting your quote request, you represent that you are at least 18 and agree to our Privacy Policy and Terms of Use. You also authorize us and/or its marketing partners to contact you for marketing/telemarketing purposes at the number and address provided above, including your wireless number if provided, using live operators, automated telephone dialing systems, pre-recorded messages, text messages and/or emails. You are not required to consent as a condition of purchasing goods or services and may revoke consent at anytime.

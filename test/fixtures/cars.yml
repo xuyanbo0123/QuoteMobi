@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  year_id: 1
+  make_id: 1
+  model_id: 1
+  trim_id: 1
+
+two:
+  year_id: 1
+  make_id: 1
+  model_id: 1
+  trim_id: 1

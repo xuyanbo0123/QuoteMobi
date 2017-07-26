@@ -1,0 +1,75 @@
+KEY,MOSS,DISPLAY,IS_DISPLAY
+_ADMINISTRATIVE_CLERICAL,Administrative Clerical,Administrative Clerical,1
+_ADVERTISING,Advertising,Advertising,1
+_APPRAISER,Appraiser,Appraiser,1
+_ARCHITECT,Architect,Architect,1
+_ARTIST,Artist,Artist,1
+_ASSEMBLER,Assembler,Assembler,1
+_BAKER,Baker,Baker,1
+_BANKER,Banker,Banker,1
+_BANK_TELLER,Bank Teller,Bank Teller,1
+_BARTENDER,Bartender,Bartender,1
+_BROKER,Broker,Broker,1
+_BUSINESS_OWNER,Business Owner,Business Owner,1
+_CASHIER,Cashier,Cashier,1
+_CASINO_WORKER,Casino Worker,Casino Worker,1
+_CEO,CEO,CEO,1
+_CERTIFIED_PUBLIC_ACCOUNTANT,Certified Public Accountant,Certified Public Accountant,1
+_CHEMIST,Chemist,Chemist,1
+_CHILDCARE,ChildCare,ChildCare,1
+_CITYWORKER,CityWorker,CityWorker,1
+_CLERGY,Clergy,Clergy,1
+_CONSTRUCTION_TRADES,Construction Trades,Construction Trades,1
+_CONSULTANT,Consultant,Consultant,1
+_CONTRACTOR,Contractor,Contractor,1
+_DECORATOR,Decorator,Decorator,1
+_DELIVERY_DRIVER,Delivery Driver,Delivery Driver,1
+_DENTIST,Dentist,Dentist,1
+_DISABLED,Disabled,Disabled,1
+_ELECTRICIAN,Electrician,Electrician,1
+_ENGINEER,Engineer,Engineer,1
+_ENTERTAINER,Entertainer,Entertainer,1
+_FARMER,Farmer,Farmer,1
+_FIREFIGHTER,FireFighter,FireFighter,1
+_GOVERNMENT,Government,Government,1
+_HEALTH_CARE,Health Care,Health Care,1
+_HOMEMAKER,Homemaker,Homemaker,1
+_HOSPITALITY_TRAVEL,Hospitality Travel,Hospitality Travel,1
+_HUMAN_RELATIONS,Human Relations,Human Relations,1
+_HUMAN_RESOURCES,Human Resources,Human Resources,1
+_JOURNALIST,Journalist,Journalist,1
+_LAB_TECHNICIAN,Lab Technician,Lab Technician,1
+_LAWYER,Lawyer,Lawyer,1
+_MARKETING,Marketing,Marketing,1
+_MANAGER_SUPERVISOR,Manager Supervisor,Manager Supervisor,1
+_MINOR_NOT_APPLICABLE,Minor Not Applicable,Minor Not Applicable,1
+_MODEL,Model,Model,1
+_OTHER_NON_TECHNICAL,Other Non Technical,Other Non Technical,1
+_OTHER_TECHNICAL,Other Technical,Other Technical,1
+_PARALEGAL,Paralegal,Paralegal,1
+_PARAMEDIC,Paramedic,Paramedic,1
+_PHOTOGRAPHER,Photographer,Photographer,1
+_PHYSICIAN,Physician,Physician,1
+_POLICE_OFFICER,Police Officer,Police Officer,1
+_POSTAL_WORKER,Postal Worker,Postal Worker,1
+_PROFESSIONAL_SALARIED,Professional Salaried,Professional Salaried,1
+_PROFESSOR,Professor,Professor,1
+_REAL_ESTATE,Real Estate,Real Estate,1
+_RECEPTIONIST,Receptionist,Receptionist,1
+_RETAIL,Retail,Retail,1
+_RETIRED,Retired,Retired,1
+_SALES,Sales,Sales,1
+_SALES_INSIDE,Sales Inside,Sales Inside,1
+_SALES_OUTSIDE,Sales Outside,Sales Outside,1
+_SCHOOL_TEACHER,School Teacher,School Teacher,1
+_SCIENTIST,Scientist,Scientist,1
+_SELF_EMPLOYED,Self Employed,Self Employed,1
+_SKILLED_SEMI_SKILLED,Skilled Semi Skilled,Skilled Semi Skilled,1
+_STUDENT,Student,Student,1
+_TEACHER,Teacher,Teacher,1
+_TECHNOLOGY,Technology,Technology,1
+_TELECOMMUNICATIONS,Telecommunications,Telecommunications,1
+_TRANSPORTATION_OR_LOGISTICS,Transportation or Logistics,Transportation or Logistics,1
+_UNEMPLOYED,Unemployed,Unemployed,1
+_WAITERWAITRESS,WaiterWaitress,WaiterWaitress,1
+_NOT_LISTED,Not Listed,Not Listed,1

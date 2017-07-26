@@ -1,0 +1,95 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Compare Quotes on Your Phone!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <script type="text/javascript" src="/js/?jquery.min,main,extensions,easing"></script>
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="/css/?main">
+</head>
+
+<body id="auto">
+
+<div id="mobile" style="background-position-x: 15402px;">
+    <div id="loader" class="active card" style="display: none;">
+        <img src="/img/loading.gif" width="32">
+
+        <h1>Loading</h1>
+    </div>
+    <div id="title-screen" class="active card">
+        <div id="title-content" style="left: 77.5px; top: 0.5px; margin-top: 1071px;">
+            <h1>Get the Best</h1>
+
+            <h1 style="font-weight:600">Car Insurance</h1>
+
+            <h1>Rates Today!</h1>
+
+            <div id="title-logo"><img src="/img/car.png" width="50%"></div>
+            <div id="start-button" style="display: block; opacity: 0.0484;">Tap here to begin</div>
+        </div>
+        <div id="zip" class="card" style="margin-top: 60px;">
+            <form target="_blank" action="save.html"
+                  onsubmit="return leaveBehind('AlOrciNh2-CZoB-O7YeyQExgRh4brAJyjY2tK_wR_7f6EMQIwNY')">
+                <h1>Let's get started!</h1>
+
+                <div class="form">
+                    <h2>Enter your 5 digit zip code</h2>
+                    <input type="tel" pattern="[0-9]*" name="zip" id="f-zip" data-error="Please enter your zip code"
+                           size="5" maxlength="5" autocomplete="off"><br>
+                    <button type="submit">Check Rates</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="results" style="display:none">
+        <h1>Here are the best rates!</h1>
+
+        <div id="leave-behind"></div>
+    </div>
+
+</div>
+
+<!-- 4-a -->
+
+<script type="text/javascript">
+    var product = 'auto';
+</script>
+
+
+<style>.tb_button {
+    padding: 1px;
+    cursor: pointer;
+    border-right: 1px solid #8b8b8b;
+    border-left: 1px solid #FFF;
+    border-bottom: 1px solid #fff;
+}
+
+.tb_button.hover {
+    borer: 2px outset #def;
+    background-color: #f8f8f8 !important;
+}
+
+.ws_toolbar {
+    z-index: 100000
+}
+
+.ws_toolbar .ws_tb_btn {
+    cursor: pointer;
+    border: 1px solid #555;
+    padding: 3px
+}
+
+.tb_highlight {
+    background-color: yellow
+}
+
+.tb_hide {
+    visibility: hidden
+}
+
+.ws_toolbar img {
+    padding: 2px;
+    margin: 0px
+}</style>
+</body>
+</html>

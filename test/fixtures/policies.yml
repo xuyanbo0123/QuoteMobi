@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lead_id: 1
+  request_coverage_id: 1
+  is_insured_id: 1
+  company_id: 1
+  years_with_company_id: 1
+  months_with_company: 1
+  expiration_date: 2015-03-29
+  continuous_year_id: 1
+  continuous_month: 1
+
+two:
+  lead_id: 1
+  request_coverage_id: 1
+  is_insured_id: 1
+  company_id: 1
+  years_with_company_id: 1
+  months_with_company: 1
+  expiration_date: 2015-03-29
+  continuous_year_id: 1
+  continuous_month: 1

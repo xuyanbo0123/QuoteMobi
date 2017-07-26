@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lead_id: 1
+  first_name: MyString
+  last_name: MyString
+  birthday: 2015-03-29
+  gender_id: 1
+  marital_status_id: 1
+  relationship_id: 1
+  occupation_id: 1
+  education_id: 1
+  is_good_gpa: false
+  credit_id: 1
+  is_bankruptcy: false
+  age_lic_id: 1
+  lic_status_id: 1
+  driver_training: false
+  is_sr22_id: 1
+  rid: 1
+  vehicle_id: 1
+
+two:
+  lead_id: 1
+  first_name: MyString
+  last_name: MyString
+  birthday: 2015-03-29
+  gender_id: 1
+  marital_status_id: 1
+  relationship_id: 1
+  occupation_id: 1
+  education_id: 1
+  is_good_gpa: false
+  credit_id: 1
+  is_bankruptcy: false
+  age_lic_id: 1
+  lic_status_id: 1
+  driver_training: false
+  is_sr22_id: 1
+  rid: 1
+  vehicle_id: 1

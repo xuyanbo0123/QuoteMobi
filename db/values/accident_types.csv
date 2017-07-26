@@ -1,0 +1,11 @@
+KEY,MOSS,DISPLAY,IS_DISPLAY
+_VEHICLE_HIT_VEHICLE,Vehicle Hit Vehicle,Vehicle Hit Vehicle,1
+_VEHICLE_HIT_PEDESTRIAN,Vehicle Hit Pedestrian,Vehicle Hit Pedestrian,1
+_VEHICLE_HIT_PROPERTY,Vehicle Hit Property,Vehicle Hit Property,1
+_VEHICLE_DAMAGED_AVOIDING_ACCIDENT,Vehicle Damaged Avoiding Accident,Vehicle Damaged Avoiding Accident,1
+_AT_FAULT_ACCIDENT_NOT_LISTED,At Fault Accident Not Listed,At Fault Accident Not Listed,1
+_NOT_AT_FAULT_ACCIDENT_NOT_LISTED,Not At Fault Accident Not Listed,Not At Fault Accident Not Listed,1
+_NOT_LISTED,Not Listed,Not Listed,1
+_HIT_AND_RUN,Hit and Run,Hit and Run,1
+_REAR_ENDED,Rear Ended,Rear Ended,1
+_OTHER_VEHICLE_HIT_YOURS,Other Vehicle Hit Yours,Other Vehicle Hit Yours,1

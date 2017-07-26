@@ -1,0 +1,9 @@
+KEY,MOSS,DISPLAY,IS_DISPLAY
+_SELF,Self,Self,1
+_SPOUSE,Spouse,Spouse,1
+_PARENT,Parent,Parent,1
+_SIBLING,Sibling,Sibling,0
+_CHILD,Child,Child,1
+_GRANDPARENT,Grandparent,Grandparent,0
+_GRANDCHILD,Grandchild,Grandchild,0
+_OTHER,Other,Other,1

@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lead_id: 1
+  year_id: 1
+  make_id: 1
+  model_id: 1
+  owner_type_id: 1
+  vehicle_use_id: 1
+  annual_mileage_id: 1
+  commute_day_id: 1
+  daily_mileage: 1
+  garage_type_id: 1
+  coll_deduct_id: 1
+  comp_deduct_id: 1
+  rid: 1
+
+two:
+  lead_id: 1
+  year_id: 1
+  make_id: 1
+  model_id: 1
+  owner_type_id: 1
+  vehicle_use_id: 1
+  annual_mileage_id: 1
+  commute_day_id: 1
+  daily_mileage: 1
+  garage_type_id: 1
+  coll_deduct_id: 1
+  comp_deduct_id: 1
+  rid: 1

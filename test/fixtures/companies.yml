@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  moss_code: 1
+  moss: MyString
+  display: MyString
+  is_display: false
+
+two:
+  name: MyString
+  moss_code: 1
+  moss: MyString
+  display: MyString
+  is_display: false

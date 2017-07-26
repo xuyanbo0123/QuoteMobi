@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uuid: MyString
+  ip: MyString
+  agent: MyString
+  device: MyString
+  gclid: MyString
+  geo_id: 1
+  geo_interest_id: 1
+
+two:
+  uuid: MyString
+  ip: MyString
+  agent: MyString
+  device: MyString
+  gclid: MyString
+  geo_id: 1
+  geo_interest_id: 1
